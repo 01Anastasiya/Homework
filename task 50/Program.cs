@@ -16,7 +16,6 @@ if (rows < numbers.GetLength(0) && colums < numbers.GetLength(1)) Console.WriteL
 else Console.WriteLine($"{rows}{colums} -> такого числа в массиве нет");
 
 
-// Заполнение массива рандомными числами от 1 до 9
 void FillArray2D(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -28,7 +27,6 @@ void FillArray2D(int[,] array)
     }
 }
 
-//  Функция вывода массива в терминал
 void PrintArray2D(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -41,8 +39,7 @@ void PrintArray2D(int[,] array)
     }
     Console.WriteLine();
 }
-
-// Функция ввода 
+ 
 int ReadInt(string message)
 {
     Console.Write(message);
